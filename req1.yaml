@@ -21,7 +21,6 @@
      ios_command:
        commands: sh run | begin line vty 0 4
      register: result
-     tags: show
 
    - name: Print result
      ios_command:
